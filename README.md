@@ -1,25 +1,17 @@
-# 🧪 Simulador de Análisis Ultra-Traza de Sustancias Picoactivas
+# 🧪 Laboratorio Virtual — Sustancias Picoactivas (Escala pM)
 
-**Programa de Química - Universidad de Antioquia (UdeA)**  
-**Curso:** Laboratorio de Química Analítica Avanzada  
-**Niveles:** Pregrado y Posgrado  
-**Profesor:** Hernán Quiroz  
+**Universidad de Antioquia (UdeA) · Química Analítica · Pregrado y Posgrado**
+Profesor: Hernán Quiroz
 
----
+## Descripción
+Práctica híbrida: laboratorio húmedo (SPE + HPLC) + simulación interactiva de
+análisis ultra-traza (pico-molar). El estudiante *ejecuta* el procedimiento
+(pipetear, acondicionar columna, eluir, inyectar) y ve la consecuencia química
+real en el cromatograma y en el LOD/LOQ.
 
-## 📋 Descripción de la Práctica
-
-Esta práctica combina el **laboratorio húmedo** (extracción y análisis instrumental real) con una **simulación computacional interactiva** para el análisis de sustancias psicoactivas/bioactivas a concentraciones **pico-molares (pM)**.
-
-### Objetivos de Aprendizaje
-- **Pregrado:** Comprender los fundamentos de la Extracción en Fase Sólida (SPE), la cromatografía HPLC y la construcción de curvas de calibración.
-- **Posgrado:** Validar métodos analíticos según norma ICH Q2 e ISO/IEC 17025, calcular LOD/LOQ y desarrollar modelos computacionales de ruido instrumental.
-
----
-
-## 🚀 Cómo ejecutar el simulador localmente
-
-### 1. Clonar el repositorio
+## Ejecutar localmente
 ```bash
-git clone https://github.com/[su-usuario]/repo-quimica-picoactiva.git
-cd repo-quimica-picoactiva
+git clone https://github.com/<usuario>/quimica-psicoactiva.git
+cd quimica-psicoactiva
+pip install -r requirements.txt
+streamlit run app.py
